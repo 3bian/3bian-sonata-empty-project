@@ -1,0 +1,12 @@
+# Ignore Python virtual environment directory,
+# used to isolate Python dependencies.
+.venv/
+
+# Ignore XMake build system directory,
+# contains temporary build files and project configurations.
+.xmake/
+
+# Ignore build output directory,
+# commonly used for storing compiled binaries or intermediate files.
+build/
+
