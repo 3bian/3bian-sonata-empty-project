@@ -6,7 +6,29 @@
 # contains temporary build files and project configurations.
 .xmake/
 
+# Ignore Visual Studio Code settings directory,
+# stores workspace-specific VS Code configuration.
+.vscode/
+
 # Ignore build output directory,
 # commonly used for storing compiled binaries or intermediate files.
 build/
 
+# Ignore log files,
+# often generated during development or debugging.
+*.log
+
+# Ignore temporary system files,
+# such as those created by macOS or Windows.
+.DS_Store
+Thumbs.db
+
+# Ignore temporary editor files,
+# such as swap or backup files.
+*~
+*.swp
+*.bak
+
+# Ignore generated documentation,
+# such as output from documentation generators.
+docs/generated/
