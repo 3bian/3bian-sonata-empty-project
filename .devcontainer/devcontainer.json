@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/nwf/cheriot-devcontainer:20250102",
+  "image": "ghcr.io/cheriot-platform/devcontainer:latest",
   "remoteUser": "cheriot",
   "containerUser": "cheriot",
   "onCreateCommand": "git config --global --add safe.directory '*' && git submodule update --init --recursive",
